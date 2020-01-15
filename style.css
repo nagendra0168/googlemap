@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat+Alternates:700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #070C1E;
+}
+
+
+
+
+
+/*SETTING NAV BAR*/
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+
+
+
+
+
+
+
+
+/*setting carousel */
+.carousel-inner img {
+  width:100%; /* Set width to 100% */
+  margin: auto;
+height: 450px;
+}
+
+
+.item img {
+    height: 550px !important;
+    width: 850px !important;
+}
+.carousel-caption h2 {
+ {
+  color:blue !important
+
+}
+.carousel-inner > .item {
+   height: 200px;
+   overflow: bottom;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+
+
+/* Cities container */
+.cities {
+   
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    overflow: auto;
+}
+
+ h2,p {
+    color: #234099;
+    margin-top: 35px;
+    padding-bottom: 15px;
+}
+
+.cities-content {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.cities-images {
+    background-size: cover;
+    min-height: 200px;
+    width: auto;
+}
+
+.city-div {
+    border: 2px solid #234099;
+    margin: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.city-div:hover {
+    border: 2px solid #285871;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.cities-images ~ p {
+    color: #234099;
+    margin: 5px;
+}
+
+#ooty {
+    background-image: url("images/ooty.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#hyd {
+    background-image: url("../images/hyd.jpg");
+}
+
+#prague {
+    background-image: url("../images/prague-unsplash.jpg");
+}
+
+#vienna {
+    background-image: url("../images/vienna.jpg");
+}
+
+#athens {
+    background-image: url("../images/athens-unsplash.jpg");
+}
+
+#rome {
+    background-image: url("../images/rome.jpg");
+}
+
+#stockholm {
+    background-image: url("../images/stockholm-unsplash.jpg");
+}
+
+#dublin {
+    background-image: url("../images/dublin.jpg");
+}
+
+#helsinki {
+    background-image: url("../images/helsinki-unsplash.jpg");
+
+}
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+/* Cities container */
+
